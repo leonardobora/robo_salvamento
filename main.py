@@ -1,7 +1,8 @@
 import os
-from simulador_labirinto import SimuladorLabirinto
-from robo_resgate import RoboResgate
-from logger import Logger
+from src.simulador_labirinto import SimuladorLabirinto
+from src.robo_resgate import RoboResgate
+from src.logger import Logger
+from src.visualizador import Visualizador
 
 def main():
     pasta_mapas = 'mapas'
