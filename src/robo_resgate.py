@@ -1,5 +1,5 @@
-from astar_labirinto import busca_astar
-from visualizador import Visualizador
+from .astar_labirinto import busca_astar
+from .visualizador import Visualizador
 
 class RoboResgate:
     def __init__(self, simulador, logger=None):
