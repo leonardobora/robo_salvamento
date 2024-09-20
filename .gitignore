@@ -1,0 +1,19 @@
+# Ambiente virtual
+venv_robo/
+
+# Arquivos de cache Python
+__pycache__/
+*.pyc
+
+# Logs
+logs/
+
+# Arquivos gerados
+*.gif
+
+# Arquivos de ambiente
+.env
+
+# IDEs e editores
+.vscode/
+.idea/
