@@ -1,0 +1,10 @@
+Comando,Posição,Direção,Sensor Esquerdo,Sensor Frente,Sensor Direito,Compartimento
+ERRO_FATAL,"(0, 3)",2,'RoboResgate' object has no attribute 'criar_labirinto_para_astar',"Traceback (most recent call last):
+  File ""c:\Users\Victus\Desktop\Segundo Semestre 2024\Serviços Cognitivos\new_ads1\main.py"", line 19, in main
+    robo = RoboResgate(simulador, logger)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""c:\Users\Victus\Desktop\Segundo Semestre 2024\Serviços Cognitivos\new_ads1\robo_resgate.py"", line 15, in __init__
+    self.labirinto = self.criar_labirinto_para_astar()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RoboResgate' object has no attribute 'criar_labirinto_para_astar'
+",SEM CARGA

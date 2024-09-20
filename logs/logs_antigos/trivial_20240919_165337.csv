@@ -1,0 +1,22 @@
+Comando,Posição,Direção,Sensor Esquerdo,Sensor Frente,Sensor Direito,Compartimento
+LIGAR,"(0, 3)",2,PAREDE,VAZIO,PAREDE,SEM CARGA
+INFO,"(0, 3)",2,"Posicao inicial: (0, 3), Direcao inicial: 2",SEM CARGA
+INFO,"(0, 3)",2,Iniciando busca pelo humano,SEM CARGA
+ERRO,"(0, 3)",2,'RoboResgate' object has no attribute 'executar_caminho',"Traceback (most recent call last):
+  File ""C:\Users\Victus\Desktop\Segundo Semestre 2024\Serviços Cognitivos\new_ads1\robo_resgate.py"", line 28, in executar_resgate
+    self.buscar_humano()
+  File ""C:\Users\Victus\Desktop\Segundo Semestre 2024\Serviços Cognitivos\new_ads1\robo_resgate.py"", line 60, in buscar_humano
+    self.executar_caminho(caminho)
+    ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RoboResgate' object has no attribute 'executar_caminho'
+",SEM CARGA
+ERRO_FATAL,"(0, 3)",2,'RoboResgate' object has no attribute 'executar_caminho',"Traceback (most recent call last):
+  File ""C:\Users\Victus\Desktop\Segundo Semestre 2024\Serviços Cognitivos\new_ads1\main.py"", line 24, in main
+    robo.executar_resgate()
+  File ""C:\Users\Victus\Desktop\Segundo Semestre 2024\Serviços Cognitivos\new_ads1\robo_resgate.py"", line 28, in executar_resgate
+    self.buscar_humano()
+  File ""C:\Users\Victus\Desktop\Segundo Semestre 2024\Serviços Cognitivos\new_ads1\robo_resgate.py"", line 60, in buscar_humano
+    self.executar_caminho(caminho)
+    ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RoboResgate' object has no attribute 'executar_caminho'
+",SEM CARGA

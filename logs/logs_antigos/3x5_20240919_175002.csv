@@ -1,0 +1,48 @@
+Comando,Posicao,Direcao,Sensor Esquerdo,Sensor Frente,Sensor Direito,Compartimento
+LIGAR,"(0, 1)",2,PAREDE,PAREDE,VAZIO,PAREDE,SEM CARGA
+INFO,"(0, 1)",2,Iniciando busca pelo humano,SEM CARGA
+A,"(1, 1)",2,VAZIO,VAZIO,VAZIO,PAREDE,SEM CARGA
+G,"(1, 1)",3,VAZIO,VAZIO,VAZIO,PAREDE,SEM CARGA
+G,"(1, 1)",0,VAZIO,VAZIO,VAZIO,PAREDE,SEM CARGA
+G,"(1, 1)",1,VAZIO,VAZIO,VAZIO,PAREDE,SEM CARGA
+A,"(1, 2)",1,PAREDE,VAZIO,PAREDE,VAZIO,SEM CARGA
+A,"(1, 3)",1,PAREDE,VAZIO,PAREDE,VAZIO,SEM CARGA
+A,"(1, 4)",1,PAREDE,VAZIO,PAREDE,VAZIO,SEM CARGA
+A,"(1, 5)",1,PAREDE,PAREDE,VAZIO,VAZIO,SEM CARGA
+G,"(1, 5)",2,PAREDE,PAREDE,VAZIO,VAZIO,SEM CARGA
+A,"(2, 5)",2,VAZIO,PAREDE,VAZIO,PAREDE,SEM CARGA
+A,"(3, 5)",2,VAZIO,PAREDE,VAZIO,PAREDE,SEM CARGA
+A,"(4, 5)",2,VAZIO,PAREDE,VAZIO,PAREDE,SEM CARGA
+A,"(5, 5)",2,VAZIO,VAZIO,PAREDE,VAZIO,SEM CARGA
+G,"(5, 5)",3,VAZIO,VAZIO,PAREDE,VAZIO,SEM CARGA
+G,"(5, 5)",0,VAZIO,VAZIO,PAREDE,VAZIO,SEM CARGA
+G,"(5, 5)",1,VAZIO,VAZIO,PAREDE,VAZIO,SEM CARGA
+A,"(5, 6)",1,PAREDE,VAZIO,PAREDE,VAZIO,SEM CARGA
+A,"(5, 7)",1,PAREDE,VAZIO,PAREDE,VAZIO,SEM CARGA
+A,"(5, 8)",1,PAREDE,HUMANO,PAREDE,VAZIO,SEM CARGA
+INFO,"(5, 8)",1,"Humano encontrado, iniciando coleta",SEM CARGA
+ERRO,"(5, 8)",1,"Erro ao executar comando P: Tentativa de coleta sem humano a frente! Tentativa de mover para ({nova_i}, {nova_j})",SEM CARGA
+ERRO,"(5, 8)",1,"Tentativa de coleta sem humano a frente! Tentativa de mover para ({nova_i}, {nova_j})","Traceback (most recent call last):
+  File ""C:\Users\Victus\Desktop\Segundo Semestre 2024\Serviços Cognitivos\new_ads1\robo_resgate.py"", line 35, in executar_resgate
+    self.coletar_humano()
+  File ""C:\Users\Victus\Desktop\Segundo Semestre 2024\Serviços Cognitivos\new_ads1\robo_resgate.py"", line 156, in coletar_humano
+    self.executar_comando('P')
+  File ""C:\Users\Victus\Desktop\Segundo Semestre 2024\Serviços Cognitivos\new_ads1\robo_resgate.py"", line 196, in executar_comando
+    self.simulador.mover_robo(comando)
+  File ""C:\Users\Victus\Desktop\Segundo Semestre 2024\Serviços Cognitivos\new_ads1\simulador_labirinto.py"", line 81, in mover_robo
+    raise ValueError(""Tentativa de coleta sem humano a frente! Tentativa de mover para ({nova_i}, {nova_j})"")
+ValueError: Tentativa de coleta sem humano a frente! Tentativa de mover para ({nova_i}, {nova_j})
+",SEM CARGA
+ERRO_FATAL,"(5, 8)",1,"Tentativa de coleta sem humano a frente! Tentativa de mover para ({nova_i}, {nova_j})","Traceback (most recent call last):
+  File ""C:\Users\Victus\Desktop\Segundo Semestre 2024\Serviços Cognitivos\new_ads1\main.py"", line 24, in main
+    robo.executar_resgate()
+  File ""C:\Users\Victus\Desktop\Segundo Semestre 2024\Serviços Cognitivos\new_ads1\robo_resgate.py"", line 35, in executar_resgate
+    self.coletar_humano()
+  File ""C:\Users\Victus\Desktop\Segundo Semestre 2024\Serviços Cognitivos\new_ads1\robo_resgate.py"", line 156, in coletar_humano
+    self.executar_comando('P')
+  File ""C:\Users\Victus\Desktop\Segundo Semestre 2024\Serviços Cognitivos\new_ads1\robo_resgate.py"", line 196, in executar_comando
+    self.simulador.mover_robo(comando)
+  File ""C:\Users\Victus\Desktop\Segundo Semestre 2024\Serviços Cognitivos\new_ads1\simulador_labirinto.py"", line 81, in mover_robo
+    raise ValueError(""Tentativa de coleta sem humano a frente! Tentativa de mover para ({nova_i}, {nova_j})"")
+ValueError: Tentativa de coleta sem humano a frente! Tentativa de mover para ({nova_i}, {nova_j})
+",SEM CARGA

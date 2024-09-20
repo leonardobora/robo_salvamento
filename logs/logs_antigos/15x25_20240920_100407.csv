@@ -1,0 +1,4 @@
+Comando,Posicao,Direcao,Sensor Esquerdo,Sensor Frente,Sensor Direito,Compartimento
+INFO,"(1, 1)",3,Iniciando busca pelo humano,SEM CARGA
+ERRO,"(1, 1)",3,Caminho para o humano nao encontrado,SEM CARGA
+ERRO,"(1, 1)",3,Não foi possível encontrar um caminho para o humano,SEM CARGA

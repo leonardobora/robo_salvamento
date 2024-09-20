@@ -1,0 +1,16 @@
+Comando,Posição,Direção,Sensor Esquerdo,Sensor Frente,Sensor Direito,Compartimento
+LIGAR,"(0, 7)",2,PAREDE,VAZIO,PAREDE,SEM CARGA
+ERRO_FATAL,"(0, 7)",2,Logger.registrar() missing 2 required positional arguments: 'leituras' and 'compartimento',"Traceback (most recent call last):
+  File ""c:\Users\Victus\Desktop\Segundo Semestre 2024\Serviços Cognitivos\new_ads1\robo_resgate.py"", line 19, in executar_resgate
+    self.logger.registrar('INFO', ['Iniciando busca pelo humano'], 'SEM CARGA')
+TypeError: Logger.registrar() missing 2 required positional arguments: 'leituras' and 'compartimento'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File ""c:\Users\Victus\Desktop\Segundo Semestre 2024\Serviços Cognitivos\new_ads1\main.py"", line 24, in main
+    robo.executar_resgate()
+  File ""c:\Users\Victus\Desktop\Segundo Semestre 2024\Serviços Cognitivos\new_ads1\robo_resgate.py"", line 29, in executar_resgate
+    self.logger.registrar('ERRO', [str(e), traceback.format_exc()], 'SEM CARGA')
+TypeError: Logger.registrar() missing 2 required positional arguments: 'leituras' and 'compartimento'
+",SEM CARGA

@@ -1,0 +1,41 @@
+Comando,Posicao,Direcao,Sensor Esquerdo,Sensor Frente,Sensor Direito,Compartimento
+LIGAR,"(0, 3)",2,PAREDE,PAREDE,VAZIO,PAREDE,SEM CARGA
+INFO,"(0, 3)",2,Iniciando busca pelo humano,SEM CARGA
+A,"(1, 3)",2,VAZIO,VAZIO,PAREDE,VAZIO,SEM CARGA
+G,"(1, 3)",3,VAZIO,VAZIO,PAREDE,VAZIO,SEM CARGA
+A,"(1, 2)",3,PAREDE,VAZIO,PAREDE,VAZIO,SEM CARGA
+A,"(1, 1)",3,PAREDE,VAZIO,VAZIO,PAREDE,SEM CARGA
+G,"(1, 1)",0,PAREDE,VAZIO,VAZIO,PAREDE,SEM CARGA
+G,"(1, 1)",1,PAREDE,VAZIO,VAZIO,PAREDE,SEM CARGA
+G,"(1, 1)",2,PAREDE,VAZIO,VAZIO,PAREDE,SEM CARGA
+A,"(2, 1)",2,VAZIO,PAREDE,VAZIO,PAREDE,SEM CARGA
+A,"(3, 1)",2,VAZIO,VAZIO,PAREDE,PAREDE,SEM CARGA
+G,"(3, 1)",3,VAZIO,VAZIO,PAREDE,PAREDE,SEM CARGA
+G,"(3, 1)",0,VAZIO,VAZIO,PAREDE,PAREDE,SEM CARGA
+G,"(3, 1)",1,VAZIO,VAZIO,PAREDE,PAREDE,SEM CARGA
+A,"(3, 2)",1,PAREDE,VAZIO,PAREDE,VAZIO,SEM CARGA
+A,"(3, 3)",1,PAREDE,VAZIO,PAREDE,VAZIO,SEM CARGA
+A,"(3, 4)",1,PAREDE,VAZIO,PAREDE,VAZIO,SEM CARGA
+A,"(3, 5)",1,PAREDE,PAREDE,VAZIO,VAZIO,SEM CARGA
+G,"(3, 5)",2,PAREDE,PAREDE,VAZIO,VAZIO,SEM CARGA
+A,"(4, 5)",2,VAZIO,PAREDE,VAZIO,PAREDE,SEM CARGA
+A,"(5, 5)",2,VAZIO,PAREDE,VAZIO,VAZIO,SEM CARGA
+A,"(6, 5)",2,VAZIO,PAREDE,HUMANO,PAREDE,SEM CARGA
+INFO,"(6, 5)",2,"Humano encontrado, iniciando coleta",SEM CARGA
+P,"(6, 5)",2,VAZIO,PAREDE,VAZIO,PAREDE,COM HUMANO
+INFO,"(6, 5)",2,Humano coletado,COM HUMANO
+INFO,"(6, 5)",2,"Humano coletado, retornando a saida",COM HUMANO
+ERRO,"(6, 5)",2,'RoboResgate' object has no attribute 'retornar_saida',"Traceback (most recent call last):
+  File ""C:\Users\Victus\Desktop\Segundo Semestre 2024\Serviços Cognitivos\new_ads1\robo_resgate.py"", line 40, in executar_resgate
+    self.retornar_saida()
+    ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RoboResgate' object has no attribute 'retornar_saida'
+",SEM CARGA
+ERRO_FATAL,"(6, 5)",2,'RoboResgate' object has no attribute 'retornar_saida',"Traceback (most recent call last):
+  File ""C:\Users\Victus\Desktop\Segundo Semestre 2024\Serviços Cognitivos\new_ads1\main.py"", line 24, in main
+    robo.executar_resgate()
+  File ""C:\Users\Victus\Desktop\Segundo Semestre 2024\Serviços Cognitivos\new_ads1\robo_resgate.py"", line 40, in executar_resgate
+    self.retornar_saida()
+    ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RoboResgate' object has no attribute 'retornar_saida'
+",SEM CARGA

@@ -1,0 +1,32 @@
+Comando,Posição,Direção,Sensor Esquerdo,Sensor Frente,Sensor Direito,Compartimento
+LIGAR,"(0, 1)",2,PAREDE,VAZIO,PAREDE,SEM CARGA
+INFO,"(0, 1)",2,Iniciando busca pelo humano,SEM CARGA
+ERRO,"(0, 1)",2,Erro ao executar comando A: Colisao com parede!,SEM CARGA
+ERRO,"(0, 1)",2,Colisao com parede!,"Traceback (most recent call last):
+  File ""C:\Users\Victus\Desktop\Segundo Semestre 2024\Serviços Cognitivos\new_ads1\robo_resgate.py"", line 26, in executar_resgate
+    self.buscar_humano()
+  File ""C:\Users\Victus\Desktop\Segundo Semestre 2024\Serviços Cognitivos\new_ads1\robo_resgate.py"", line 58, in buscar_humano
+    self.executar_caminho(caminho)
+  File ""C:\Users\Victus\Desktop\Segundo Semestre 2024\Serviços Cognitivos\new_ads1\robo_resgate.py"", line 83, in executar_caminho
+    self.executar_comando('A')
+  File ""C:\Users\Victus\Desktop\Segundo Semestre 2024\Serviços Cognitivos\new_ads1\robo_resgate.py"", line 124, in executar_comando
+    self.simulador.mover_robo(comando)
+  File ""C:\Users\Victus\Desktop\Segundo Semestre 2024\Serviços Cognitivos\new_ads1\simulador_labirinto.py"", line 70, in mover_robo
+    raise ValueError(""Colisao com parede!"")
+ValueError: Colisao com parede!
+",SEM CARGA
+ERRO_FATAL,"(0, 1)",2,Colisao com parede!,"Traceback (most recent call last):
+  File ""C:\Users\Victus\Desktop\Segundo Semestre 2024\Serviços Cognitivos\new_ads1\main.py"", line 24, in main
+    robo.executar_resgate()
+  File ""C:\Users\Victus\Desktop\Segundo Semestre 2024\Serviços Cognitivos\new_ads1\robo_resgate.py"", line 26, in executar_resgate
+    self.buscar_humano()
+  File ""C:\Users\Victus\Desktop\Segundo Semestre 2024\Serviços Cognitivos\new_ads1\robo_resgate.py"", line 58, in buscar_humano
+    self.executar_caminho(caminho)
+  File ""C:\Users\Victus\Desktop\Segundo Semestre 2024\Serviços Cognitivos\new_ads1\robo_resgate.py"", line 83, in executar_caminho
+    self.executar_comando('A')
+  File ""C:\Users\Victus\Desktop\Segundo Semestre 2024\Serviços Cognitivos\new_ads1\robo_resgate.py"", line 124, in executar_comando
+    self.simulador.mover_robo(comando)
+  File ""C:\Users\Victus\Desktop\Segundo Semestre 2024\Serviços Cognitivos\new_ads1\simulador_labirinto.py"", line 70, in mover_robo
+    raise ValueError(""Colisao com parede!"")
+ValueError: Colisao com parede!
+",SEM CARGA

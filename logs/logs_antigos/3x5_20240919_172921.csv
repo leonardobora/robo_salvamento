@@ -1,0 +1,56 @@
+Comando,Posição,Direção,Sensor Esquerdo,Sensor Frente,Sensor Direito,Compartimento
+LIGAR,"(0, 1)",2,PAREDE,VAZIO,PAREDE,SEM CARGA
+INFO,"(0, 1)",2,Iniciando busca pelo humano,SEM CARGA
+INFO,"(0, 1)",2,"Iniciando execução do caminho: [(0, 1), (1, 1), (1, 2), (1, 3), (1, 4), (1, 5), (2, 5), (3, 5), (4, 5), (5, 5), (5, 6), (5, 7), (5, 8), (5, 9)]",SEM CARGA
+A,"(1, 1)",2,VAZIO,VAZIO,PAREDE,SEM CARGA
+G,"(1, 1)",3,VAZIO,PAREDE,VAZIO,SEM CARGA
+G,"(1, 1)",0,PAREDE,VAZIO,VAZIO,SEM CARGA
+G,"(1, 1)",1,VAZIO,VAZIO,VAZIO,SEM CARGA
+A,"(1, 2)",1,PAREDE,VAZIO,PAREDE,SEM CARGA
+A,"(1, 3)",1,PAREDE,VAZIO,PAREDE,SEM CARGA
+A,"(1, 4)",1,PAREDE,VAZIO,PAREDE,SEM CARGA
+A,"(1, 5)",1,PAREDE,PAREDE,VAZIO,SEM CARGA
+G,"(1, 5)",2,PAREDE,VAZIO,VAZIO,SEM CARGA
+A,"(2, 5)",2,PAREDE,VAZIO,PAREDE,SEM CARGA
+A,"(3, 5)",2,PAREDE,VAZIO,PAREDE,SEM CARGA
+A,"(4, 5)",2,PAREDE,VAZIO,PAREDE,SEM CARGA
+A,"(5, 5)",2,VAZIO,PAREDE,VAZIO,SEM CARGA
+G,"(5, 5)",3,PAREDE,VAZIO,VAZIO,SEM CARGA
+G,"(5, 5)",0,VAZIO,VAZIO,VAZIO,SEM CARGA
+G,"(5, 5)",1,VAZIO,VAZIO,PAREDE,SEM CARGA
+A,"(5, 6)",1,PAREDE,VAZIO,PAREDE,SEM CARGA
+A,"(5, 7)",1,PAREDE,VAZIO,PAREDE,SEM CARGA
+A,"(5, 8)",1,PAREDE,HUMANO,PAREDE,SEM CARGA
+A,"(5, 9)",1,VAZIO,PAREDE,PAREDE,SEM CARGA
+INFO,"(5, 9)",1,"Humano encontrado, iniciando coleta",SEM CARGA
+INFO,"(5, 9)",1,"Iniciando execução do caminho: [(0, 1), (1, 1), (1, 2), (1, 3), (1, 4), (1, 5), (2, 5), (3, 5), (4, 5), (5, 5), (5, 6), (5, 7), (5, 8), (5, 9)]",SEM CARGA
+G,"(5, 9)",2,PAREDE,PAREDE,VAZIO,SEM CARGA
+ERRO,"(5, 9)",2,"Erro ao executar comando A: Colisao com parede! Tentativa de mover de (5, 9) para (6, 9)",SEM CARGA
+ERRO,"(5, 9)",2,"Colisao com parede! Tentativa de mover de (5, 9) para (6, 9)","Traceback (most recent call last):
+  File ""C:\Users\Victus\Desktop\Segundo Semestre 2024\Serviços Cognitivos\new_ads1\robo_resgate.py"", line 35, in executar_resgate
+    self.coletar_humano()
+  File ""C:\Users\Victus\Desktop\Segundo Semestre 2024\Serviços Cognitivos\new_ads1\robo_resgate.py"", line 115, in coletar_humano
+    self.executar_caminho(self.caminho)
+  File ""C:\Users\Victus\Desktop\Segundo Semestre 2024\Serviços Cognitivos\new_ads1\robo_resgate.py"", line 104, in executar_caminho
+    self.executar_comando('A')
+  File ""C:\Users\Victus\Desktop\Segundo Semestre 2024\Serviços Cognitivos\new_ads1\robo_resgate.py"", line 149, in executar_comando
+    self.simulador.mover_robo(comando)
+  File ""C:\Users\Victus\Desktop\Segundo Semestre 2024\Serviços Cognitivos\new_ads1\simulador_labirinto.py"", line 72, in mover_robo
+    raise ValueError(f""Colisao com parede! Tentativa de mover de {self.posicao_robo} para ({nova_i}, {nova_j})"")
+ValueError: Colisao com parede! Tentativa de mover de (5, 9) para (6, 9)
+",SEM CARGA
+ERRO_FATAL,"(5, 9)",2,"Colisao com parede! Tentativa de mover de (5, 9) para (6, 9)","Traceback (most recent call last):
+  File ""C:\Users\Victus\Desktop\Segundo Semestre 2024\Serviços Cognitivos\new_ads1\main.py"", line 24, in main
+    robo.executar_resgate()
+  File ""C:\Users\Victus\Desktop\Segundo Semestre 2024\Serviços Cognitivos\new_ads1\robo_resgate.py"", line 35, in executar_resgate
+    self.coletar_humano()
+  File ""C:\Users\Victus\Desktop\Segundo Semestre 2024\Serviços Cognitivos\new_ads1\robo_resgate.py"", line 115, in coletar_humano
+    self.executar_caminho(self.caminho)
+  File ""C:\Users\Victus\Desktop\Segundo Semestre 2024\Serviços Cognitivos\new_ads1\robo_resgate.py"", line 104, in executar_caminho
+    self.executar_comando('A')
+  File ""C:\Users\Victus\Desktop\Segundo Semestre 2024\Serviços Cognitivos\new_ads1\robo_resgate.py"", line 149, in executar_comando
+    self.simulador.mover_robo(comando)
+  File ""C:\Users\Victus\Desktop\Segundo Semestre 2024\Serviços Cognitivos\new_ads1\simulador_labirinto.py"", line 72, in mover_robo
+    raise ValueError(f""Colisao com parede! Tentativa de mover de {self.posicao_robo} para ({nova_i}, {nova_j})"")
+ValueError: Colisao com parede! Tentativa de mover de (5, 9) para (6, 9)
+",SEM CARGA
